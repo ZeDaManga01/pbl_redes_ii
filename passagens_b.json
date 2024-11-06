@@ -1,0 +1,8 @@
+{
+    "1": {
+        "origem": "string_b",
+        "parada": "string_b",
+        "destino": "string_b",
+        "disponivel": 6
+    }
+}

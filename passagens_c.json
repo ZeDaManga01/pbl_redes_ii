@@ -1,0 +1,14 @@
+{
+    "1": {
+        "origem": "string_c",
+        "parada": "string_c",
+        "destino": "string_c",
+        "disponivel": 12
+    },
+    "2": {
+        "origem": "string_ca",
+        "parada": "string_ca",
+        "destino": "string_ca",
+        "disponivel": 8
+    }
+}

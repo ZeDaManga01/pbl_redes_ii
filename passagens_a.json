@@ -1,0 +1,32 @@
+{
+    "1": {
+        "origem": "Salvador",
+        "parada": "Belo Horizonte",
+        "destino": "Rio de Fevereiro",
+        "disponivel": 4
+    },
+    "2": {
+        "origem": "S\u00e3o Paulo",
+        "parada": "Bras\u00edlia",
+        "destino": "Manaus",
+        "disponivel": 5
+    },
+    "3": {
+        "origem": "Recife",
+        "parada": "Fortaleza",
+        "destino": "Bel\u00e9m",
+        "disponivel": 0
+    },
+    "4": {
+        "origem": "Salvador",
+        "parada": "Belo Horizonte",
+        "destino": "Rio de Fevereiro",
+        "disponivel": 0
+    },
+    "5": {
+        "origem": "Rio Branco",
+        "parada": "Bras\u00edlia",
+        "destino": "Recife",
+        "disponivel": 0
+    }
+}

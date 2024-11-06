@@ -30,7 +30,12 @@ select = ['I', 'F', 'E', 'W', 'PL', 'PT']
 [tool.taskipy.tasks]
 lint = 'ruff check . && ruff check . --diff'
 format = 'ruff check . --fix && ruff format .'
-run = 'fastapi dev pbl_redes_ii\app.py'
+run_a = 'fastapi dev pbl_redes_ii\server_a.py'
+run_host_a = 'fastapi dev pbl_redes_ii\server_a.py --host 0.0.0.0 --port 8004'
+run_b = 'fastapi dev pbl_redes_ii\server_b.py'
+run_host_b = 'fastapi dev pbl_redes_ii\server_b.py --host 0.0.0.0 --port 8008'
+run_c = 'fastapi dev pbl_redes_ii\server_c.py'
+run_host_c = 'fastapi dev pbl_redes_ii\server_c.py --host 0.0.0.0 --port 8016'
 pre_test = 'task lint'
 test = 'pytest -s -x --cov=pbl_redes_ii -vv'
 post_test = 'coverage html'

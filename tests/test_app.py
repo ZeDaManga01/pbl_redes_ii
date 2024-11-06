@@ -2,13 +2,13 @@ from http import HTTPStatus
 
 from fastapi.testclient import TestClient
 
-from pbl_redes_ii.app import app
+from pbl_redes_ii.server_a import server_a
 
-client = TestClient(app)
+client = TestClient(server_a)
 
 
 def test_read_root_deve_retornar_ok_e_ola_mundo():
-    client = TestClient(app)
+    client = TestClient(server_a)
 
     response = client.get("/")
 
