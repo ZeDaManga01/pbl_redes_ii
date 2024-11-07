@@ -3,7 +3,7 @@
         "origem": "string_c",
         "parada": "string_c",
         "destino": "string_c",
-        "disponivel": 12
+        "disponivel": 8
     },
     "2": {
         "origem": "string_ca",
