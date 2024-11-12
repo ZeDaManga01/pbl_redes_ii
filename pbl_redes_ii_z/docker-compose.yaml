@@ -1,0 +1,37 @@
+services:
+  server_a:
+    build:
+      context: ./server_a  # Diretório onde está o Dockerfile de server_A
+    container_name: server_a
+    networks:
+      - minha-rede
+    ports:
+      - "8004:8004"
+    environment:
+      - PORT=8004
+
+  server_b:
+    build:
+      context: ./server_b  # Diretório onde está o Dockerfile de server_B
+    container_name: server_b
+    networks:
+      - minha-rede
+    ports:
+      - "8008:8008"
+    environment:
+      - PORT=8008
+
+  server_c:
+    build:
+      context: ./server_c  # Diretório onde está o Dockerfile de server_C
+    container_name: server_c
+    networks:
+      - minha-rede
+    ports:
+      - "8016:8016"
+    environment:
+      - PORT=8016
+
+networks:
+  minha-rede:
+    driver: bridge
