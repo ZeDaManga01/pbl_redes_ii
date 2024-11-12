@@ -1,7 +1,7 @@
 services:
   server_a:
     build:
-      context: ./server_a  # Diretório onde está o Dockerfile de server_A
+      context: ./pbl_redes_ii_z/server_a  # Diretório onde está o Dockerfile de server_A
     container_name: server_a
     networks:
       - minha-rede
@@ -12,7 +12,7 @@ services:
 
   server_b:
     build:
-      context: ./server_b  # Diretório onde está o Dockerfile de server_B
+      context: ./pbl_redes_ii_z/server_b  # Diretório onde está o Dockerfile de server_B
     container_name: server_b
     networks:
       - minha-rede
@@ -23,7 +23,7 @@ services:
 
   server_c:
     build:
-      context: ./server_c  # Diretório onde está o Dockerfile de server_C
+      context: ./pbl_redes_ii_z/server_c  # Diretório onde está o Dockerfile de server_C
     container_name: server_c
     networks:
       - minha-rede

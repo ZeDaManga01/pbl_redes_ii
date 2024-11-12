@@ -1,38 +1,14 @@
 {
     "1": {
-        "origem": "São Paulo",
-        "parada": "Rio de Janeiro",
-        "destino": "Belo Horizonte",
-        "disponivel": 8
+        "id": 10,
+        "cidade": "stringc",
+        "preco": 30,
+        "disponivel": 322
     },
     "2": {
-        "origem": "São Paulo",
-        "parada": "Curitiba",
-        "destino": "Porto Alegre",
-        "disponivel": 8
-    },
-    "3": {
-        "origem": "Rio de Janeiro",
-        "parada": "Vitória",
-        "destino": "Salvador",
-        "disponivel": 8
-    },
-    "4": {
-        "origem": "Salvador",
-        "parada": "Recife",
-        "destino": "Fortaleza",
-        "disponivel": 8
-    },
-    "5": {
-        "origem": "Fortaleza",
-        "parada": "Natal",
-        "destino": "João Pessoa",
-        "disponivel": 8
-    },
-    "6": {
-        "origem": "São Paulo",
-        "parada": "Belo Horizonte",
-        "destino": "Brasília",
-        "disponivel": 8
+        "id": 123,
+        "cidade": "stringc",
+        "preco": 0,
+        "disponivel": 7
     }
 }

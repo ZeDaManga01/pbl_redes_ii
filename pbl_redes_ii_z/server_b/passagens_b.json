@@ -1,8 +1,14 @@
 {
     "1": {
-        "origem": "string_b",
-        "parada": "string_b",
-        "destino": "string_b",
-        "disponivel": 8
+        "id": 0,
+        "cidade": "string",
+        "preco": 20,
+        "disponivel": 319
+    },
+    "2": {
+        "id": 203,
+        "cidade": "string",
+        "preco": 40,
+        "disponivel": 4
     }
 }
